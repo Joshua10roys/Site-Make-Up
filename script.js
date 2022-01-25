@@ -1,4 +1,3 @@
-document.body.innerHTML = `<h2>Loading...</h2>`
 // async & await 
 async function getData() {
     try {
