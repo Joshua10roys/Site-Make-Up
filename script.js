@@ -1,11 +1,9 @@
 document.body.innerHTML = `<h2>Loading...</h2>`
 // async & await 
 async function getData() {
-    // url
-    const url = "http://makeup-api.herokuapp.com/api/v1/products.json";
     try {
         // fetching data
-        const data = await fetch(url);
+        const data = await fetch("http://makeup-api.herokuapp.com/api/v1/products.json");
         const jsonData = await data.json();
         // console.log(jsonData);
 
