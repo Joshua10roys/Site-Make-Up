@@ -2,7 +2,7 @@
 async function getData() {
     try {
         // fetching data
-        const data = await fetch("http://makeup-api.herokuapp.com/api/v1/products.json");
+        const data = await fetch("file.json");
         const jsonData = await data.json();
         // console.log(jsonData);
 
